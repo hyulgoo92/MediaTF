@@ -9,9 +9,12 @@ conda create -n MediaTF
 conda activate MediaTF
 ```
 
-Next, install the required packages:
-```bash
-mkdir result data
-python train.py
 
+Next, download data file https://drive.google.com/file/d/1dqOSuRBSOxUmlvCiNNxXnQqG1E8BFpx9/view?usp=drive_link
+      Unzip and create result folder
+```bash
+mkdir result 
 ```
+
+	  
+	  
