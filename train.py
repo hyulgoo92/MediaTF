@@ -213,7 +213,7 @@ for epoch in range(num_epochs):
     
     # 모델 주기적 저장 (예: 10 에포크마다)
     if (epoch + 1) % 10 == 0:
-        torch.save(model.state_dict(), f"./result2/resnet_model_epoch_{epoch+1}.pth")
+        torch.save(model.state_dict(), f"./result/resnet_model_epoch_{epoch+1}.pth")
     
     # 테스트 데이터에 대한 예측 저장
     if (epoch + 1) % 5 == 0:  # 10 에포크마다 테스트 이미지 저장
