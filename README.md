@@ -16,5 +16,7 @@ Next, download data file https://drive.google.com/file/d/1dqOSuRBSOxUmlvCiNNxXnQ
 mkdir result 
 ```
 
-	  
-	  
+Next, install the required packages and run train.py
+```bash
+python train.py 
+```
